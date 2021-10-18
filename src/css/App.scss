@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Quicksand', sans-serif;
+	background-color: #efefef;
+}
+
+header {
+	padding: 20px 44px;
+	background-color: #fff;
+
+	h1 {
+		font-size: 22px;
+		font-weight: 600;
+
+		@media (min-width: 900px) {
+			font-size: 40px;
+		}
+	}
+}
+
+section {
+	max-width: 90%;
+	margin: auto;
+}
+
+.province {
+	font-size: 38px;
+	font-size: 700;
+	margin: 24px 0;
+	text-align: center;
+}
+
+.cards {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+
+	@media (min-width: 500px) {
+		flex-direction: row;
+	}
+
+	.card {
+		width: 100%;
+		height: 280px;
+		margin: 22px 12px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		color: 111;
+		background-color: #fff;
+		box-shadow: 0 2px 3px rgba($color: #000000, $alpha: 0.1),
+			0 2px 3px rgba($color: #000000, $alpha: 0.1);
+
+		h3 {
+			font-size: 36px;
+			font-weight: 500;
+			margin-bottom: 22px;
+		}
+
+		p {
+			font-size: 20px;
+			font-weight: 400;
+			margin: 4px 0;
+		}
+	}
+}
+
+select {
+	width: 100%;
+	padding: 12px;
+	background-color: #fff;
+	border: 1px solid #aaa;
+	font-size: 18px;
+	font-weight: 300;
+}
