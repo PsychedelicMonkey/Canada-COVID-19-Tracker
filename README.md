@@ -12,7 +12,7 @@ Data provided by: [opencovid.ca](https://opencovid.ca/api/).
 npm install
 ```
 
-## Make Production BUild
+## Make Production Build
 
 ```
 npm run build
